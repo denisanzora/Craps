@@ -1,0 +1,12 @@
+1. A player rolls two dice. Each die has six faces. These faces contain 1, 2, 3, 4, 5, and 6 spots.
+2. After the dice have come to rest, the sum of the spots on the two upward faces is calculated.
+	CONDITIONS:
+	- If the sum is 7 or 11 on the first throw, the player wins.
+	- If the sum is 2, 3, or 12 on the first throw (called "craps"), the player loses (i.e. the "house" wins).
+	- If the sum is 4, 5, 6, 8, 9, or 10 on the first throw, then the sum becomes the player's "point." 
+3. To win, you must continue rolling the dice until you "make your point." The player loses by rolling a 7 before making the point.
+4. The game should allow for wagering. This means that you need to prompt that user for an initial bank balance from which wagers will be added or subtracted.
+	- Before each roll prompt the user for a wager.
+5. Once a game is lost or won, the bank balance should be adjusted.
+6. As the game progresses, print various messages to create some "chatter" such as, "Sorry, you busted!", or "Oh, you're going for broke, huh?", 
+   or "Aw cmon, take a chance!", or "You're up big, now's the time to cash in your chips!"
